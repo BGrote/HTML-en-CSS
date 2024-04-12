@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="css" href="style.css">
 </head>
 <body>
     <form action="mailto:97095815@st.deltion.nl" 
@@ -13,37 +14,76 @@
 	<br>
 
 	<input type="text" id="fname" name="fname" 
-		placeholder="Voornaam" value="">
+		placeholder="Voornaam" value="" required maxlength="100">
 	<br>
 
 	<label for="lname">Achternaam:</label>
 	<br>
 
 	<input type="text" id="lname" name="lname" 
-		placeholder="achternaam" value="">
+		placeholder="achternaam" value="" required maxlength="100">
 	<br>
 
     <label for="adress">Adress:</label>
     <br>
 
     <input type="text" id="adress" name="adress"
-        placeholder="Adress" value="">
+        placeholder="Adress" value="" required>
     <br>
 
     <label for="postcode">Postcode:</label>
     <br>
 
     <input type="text" id="postcode" name="postcode"
-        placeholder="postcode" value="">
+        placeholder="postcode" value="" required maxlength="6">
     <br>
 
     <label for="plaats">Plaats:</label>
     <br>
 
     <input type="text" id="plaats" name="plaats"
-        placeholder="Plaats" value="">
+        placeholder="Plaats" value="" required maxlength="100">
+    <br>
+
+    <label for="Geboortedatum">Geboortedatum:</label>
+    <br>
+
+    <input type="date" id="Geboortedatum" name="Geboortedatum"
+        placeholder="Geboortedatum" value="" required>
+    <br>
+    
+    <label for="email">Email:</label>
+    <br>
+
+    <input type="email" id="email" name="email"
+        placeholder="email" value="" required>
+    <br>
+
+    <label for="geslacht">Geslacht:</label>
+    <br>
+    
+    <input type="radio" id="Man" name="geslacht" value="" required>
+    <label for="Man">Man</label>
+    <br>
+    <input type="radio" id="Vrouw" name="geslacht" value="" required>
+    <label for="Vrouw">Vrouw</label>
+    <br>
+
+    <label for="opmerking">Opmerking:</label>
+    <br>
+
+    <input type="text" id="opmerking" name="opmerking"
+        placeholder="Opmerking" value="" required maxlength="100">
+    <br>
+
+    <label for="nieuwsbrief">Inschrijven voor nieuwsbrief:</label>
+    <br>
+
+    <input type="checkbox" id="nieuwsbrief" name="nieuwsbrief"
+        placeholder="nieuwsbrief" value="" required>
     <br>
     <br>
+
 	<input type="submit" value="Submit">
 
     
