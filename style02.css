@@ -1,0 +1,37 @@
+
+input{
+    background-color: lightgray;
+    border-color: grey;
+    background-image: url(loop4.png);
+    background-repeat: no-repeat;
+    background-position: 7px 5px;
+    background-size:5%;
+    border-radius: 50px;
+    display: flex;
+    width: 350px;
+    max-width: 100%;
+    height: 26px;
+    padding-left: 30px;
+
+}
+
+.searchbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+body{
+    background-color: lightgrey;
+}
+
+img {
+    position: absolute;
+    top: 25%;
+    left: 38%;
+    
+    margin-top: 10px; /* Adjust the margin as needed */
+}
