@@ -38,7 +38,7 @@ body{
     background-color: lightgrey;
 }
 
-img {
+.google {
     position: absolute;
     top: 25%;
     left: 38%;
@@ -74,4 +74,15 @@ img {
     bottom: 0;
     right: 0;
     text-decoration: none;
+}
+
+.avatar {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 9999;
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    border-radius: 50%; /* Make it circular */
+    border: 2px solid #fff; /* Example border */
 }
