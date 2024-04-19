@@ -51,9 +51,25 @@ div {
 footer {
     background-color: #333;
     color: #fff;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+td{
+    padding: 10px;
+}
+
+.link{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+video{
+    float: right;
+    width:19%;
+    height: auto;
+    border-radius: 20%; 
 }
