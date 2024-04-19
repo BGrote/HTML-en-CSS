@@ -65,6 +65,7 @@ td{
 .link{
     font-weight: bold;
     cursor: pointer;
+    color: black;
 }
 
 video{
@@ -73,3 +74,9 @@ video{
     height: auto;
     border-radius: 20%; 
 }
+
+.bordered{
+        border: 2px solid black; 
+    }
+
+
